@@ -50,7 +50,7 @@ function Hero() {
           I solve problems through clean code and build digital experiences that
           users actually love.
           <br />
-          Let's bring your next project to life!
+          Let&apos;s bring your next project to life!
         </p>
         <div className="mt-8 flex justify-center space-x-4 font-bold">
           <a

@@ -44,14 +44,14 @@ function About() {
         <div className="flex flex-col-reverse md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-12 mb-12">
           <div className="md:w-2/3">
             <p className="text-lg leading-relaxed mb-6">
-              Hi, I'm Timmy, a Computer Science graduate who discovered my
+              Hi, I am Timmy, a Computer Science graduate who discovered my
               passion for frontend development through the simple joy of telling
               a computer what to do and watching it come to life. Over the past
-              year, I've focused on building user-centered web applications with
-              React and Next.js, combining theoretical CS foundations with
+              year, I have focused on building user-centered web applications
+              with React and Next.js, combining theoretical CS foundations with
               hands-on problem-solving.
-              <br /> As a self-taught developer, I've developed strong research
-              and debugging skills through documentation deep-dives and
+              <br /> As a self-taught developer, I have developed strong
+              research and debugging skills through documentation deep-dives and
               systematic experimentation. I also focus on creating intuitive
               user interfaces and seamless user experiences.
             </p>

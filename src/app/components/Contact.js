@@ -28,12 +28,12 @@ const Contact = () => {
     >
       <div className="container mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-[#00ADB5]">
-          Let's Connect
+          Let&apos;s Connect
         </h2>
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10">
           Got an idea you want to bring to life? my inbox is always open. <br />
-          Whether you have a project, question or just want to say hi, I'll get
-          back to you!
+          Whether you have a project, question or just want to say hi, I will
+          get back to you!
         </p>
 
         <div className="flex flex-col items-center justify-center space-y-6 md:space-y-0 md:flex-row md:space-x-8">
