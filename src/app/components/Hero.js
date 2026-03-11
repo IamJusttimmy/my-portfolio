@@ -54,8 +54,8 @@ function Hero() {
         </p>
         <div className="mt-8 flex justify-center space-x-4 font-bold">
           <a
-            href="/Timilehin Amolegbe - Curriculum Vitae.pdf"
-            download="Timmy_Resume.pdf"
+            href="/Timilehin Amolegbe.docx"
+            download="Timmy_Resume.docx"
             className="px-6 py-3 rounded-full text-white bg-[#00ADB5] hover:bg-[#009b9f] transition-colors"
           >
             Download My CV

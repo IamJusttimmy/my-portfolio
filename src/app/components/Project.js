@@ -1,4 +1,3 @@
-// src/components/Projects.js
 "use client";
 
 import React from "react";
@@ -18,14 +17,13 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Confrence Ticket Generator",
+     title: "My Wealth - Finance Tracker",
     description:
-      "A simple react app that generates confrence tickets with users inputting their details.",
-    image: "/images/projects/ticket-generator.png",
-    tags: ["Next.js", "React", "Tailwind CSS"],
-    gitUrl:
-      "https://github.com/IamJusttimmy/Travel-https://github.com/IamJusttimmy/Confrence-Ticket-generator",
-    previewUrl: "https://confrence-ticket-generator-seven.vercel.app/",
+      "A personal finance tracking web application for monitoring income, expenses, budgets, and financial balance.Managed application state and implemented local storage for persistent data without a backend service.",
+    image: "/images/projects/my-wealth.png",
+    tags: ["React", "Recharts", "Tailwind CSS"],
+    gitUrl: "https://github.com/IamJusttimmy/my-wealth",
+    previewUrl: "https://mywealth-view.vercel.app/",
   },
   {
     id: 3,
@@ -39,26 +37,6 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Travel List",
-    description:
-      "A clean web app that helps travelers plan trips and stay organized. You can create itineraries, make packing and to-do lists, and keep everything in one place.",
-    image: "/images/projects/travel-list.png",
-    tags: ["React", "CSS"],
-    gitUrl: "https://github.com/IamJusttimmy/Travel-List",
-    previewUrl: "https://travel-list-nine-amber.vercel.app/",
-  },
-  {
-    id: 5,
-    title: "Budget Manager",
-    description:
-      "A simple designed React app that helps users manage their event budgets — perfect for weddings, birthdays, parties, or any occasion. Set a total budget, categorize and track expenses, and get alerts when spending goes over budget and works with low or no internet cnnection.",
-    image: "/images/projects/budget-manager.png",
-    tags: ["React", "CSS"],
-    gitUrl: "https://github.com/IamJusttimmy/Budget-Manager",
-    previewUrl: "https://budget-manager-swart.vercel.app/",
-  },
-  {
-    id: 6,
     title: "Bureau de Change",
     description:
       "Bureau-de-Change is a sleek web tool for converting currencies and checking exchange rates in real time. Whether you’re traveling, trading, or just curious, it gives quick, accurate rate info — all in a clean, easy-to-use interface.",
@@ -66,6 +44,27 @@ const projectsData = [
     tags: ["React", "CSS", "API"],
     gitUrl: "https://github.com/IamJusttimmy/bureau-de-change",
     previewUrl: "https://bureau-de-change.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Confrence Ticket Generator",
+    description:
+      "A simple react app that generates confrence tickets with users inputting their details.",
+    image: "/images/projects/ticket-generator.png",
+    tags: ["Next.js", "React", "Tailwind CSS"],
+    gitUrl:
+      "https://github.com/IamJusttimmy/Travel-https://github.com/IamJusttimmy/Confrence-Ticket-generator",
+    previewUrl: "https://confrence-ticket-generator-seven.vercel.app/",
+  },
+  {
+    id: 6,
+     title: "Travel List",
+    description:
+      "A clean web app that helps travelers plan trips and stay organized. You can create itineraries, make packing and to-do lists, and keep everything in one place.",
+    image: "/images/projects/travel-list.png",
+    tags: ["React", "CSS"],
+    gitUrl: "https://github.com/IamJusttimmy/Travel-List",
+    previewUrl: "https://travel-list-nine-amber.vercel.app/",
   },
 ];
 

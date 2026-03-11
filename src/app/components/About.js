@@ -15,6 +15,7 @@ function About() {
     { name: "React", image: "/skills/react.svg" },
     { name: "Next.js", image: "/skills/nextdotjs.svg" },
     { name: "JavaScript", image: "/skills/javascript.svg" },
+    { name: "TypeScript", image: "/skills/typescript.svg" },
     { name: "Tailwind CSS", image: "/skills/tailwindcss.svg" },
     { name: "Git", image: "/skills/git.svg" },
     { name: "GitHub", image: "/skills/github.svg" },

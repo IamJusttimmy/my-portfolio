@@ -36,7 +36,7 @@ const Contact = () => {
           get back to you!
         </p>
 
-        <div className="flex flex-col items-center justify-center space-y-6 md:space-y-0 md:flex-row md:space-x-8">
+        <div className="flex flex-row items-center justify-center space-y-6 md:space-y-0 md:flex-row md:space-x-8">
           <a
             href={`mailto:${socialLinks.email}`}
             className="flex items-center space-x-2 "
