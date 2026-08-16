@@ -15,8 +15,40 @@ const projectsData = [
     gitUrl: "https://github.com/IamJusttimmy/ai-text-processor",
     previewUrl: "https://alexta.vercel.app/",
   },
-  {
+ {
     id: 2,
+    title: "Omen-Signal",
+    description:
+      "A landing page built for a music group called Omen for their album drop - Signal. The landing page features a sleek, anticipatory and modern design. The page is fully responsive and optimized for performance, ensuring a smooth user experience across all devices.",
+    image: "/images/projects/omen.jpeg",
+    tags: ["HTML", "CSS", "Javascript"],
+    gitUrl:
+      "https://github.com/IamJusttimmy/Omen",
+    previewUrl: "https://omensignal.vercel.app/",
+  },
+
+  {
+    id: 3,
+    title: "Create User Form",
+    description:
+      "A CreateUserForm component that validates user input with password requirements. Real-time password validation,API integration, error handling, Accessible form inputs with proper labeling, Client-side validation to prevent invalid submissions.",
+    image: "/images/projects/create-user-form.jpeg",
+    tags: ["React", "API"],
+    gitUrl: "https://github.com/IamJusttimmy/create-user-form",
+    previewUrl: "create-form-validation.vercel.app",
+  },
+  {
+    id: 4,
+    title: "Clime",
+    description:
+      "A weather application that fetches and displays real-time weather data based on user input. It provides current weather conditions, temperature, humidity, and wind speed for any location in Lagos. The app features a clean and responsive design, ensuring a seamless user experience across devices.",
+    image: "/images/projects/clime.jpeg",
+    tags: ["React", "CSS"],
+    gitUrl: "https://github.com/ClimeTeam/Clime",
+    previewUrl: "https://clime-app.vercel.app/",
+  },
+  {
+    id: 5,
      title: "My Wealth - Finance Tracker",
     description:
       "A personal finance tracking web application for monitoring income, expenses, budgets, and financial balance.Managed application state and implemented local storage for persistent data without a backend service.",
@@ -26,45 +58,14 @@ const projectsData = [
     previewUrl: "https://mywealth-view.vercel.app/",
   },
   {
-    id: 3,
-    title: "Student Attendance Management System",
-    description:
-      "This is a comprehensive web-based student attendance tracking application that allows educators to efficiently manage and monitor student attendance across weekdays. The system utilizes local storage to save and retrieve data, ensuring student records are persistent across sessions. with pagination support for handling large student lists.",
-    image: "/images/projects/student-manager.jpeg",
-    tags: ["React", "CSS"],
-    gitUrl: "https://github.com/IamJusttimmy/student-manager",
-    previewUrl: "https://student-manager-eosin-ten.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Bureau de Change",
+    id: 6,
+     title: "Bureau de Change",
     description:
       "Bureau-de-Change is a sleek web tool for converting currencies and checking exchange rates in real time. Whether you’re traveling, trading, or just curious, it gives quick, accurate rate info — all in a clean, easy-to-use interface.",
     image: "/images/projects/currency-changer.png",
     tags: ["React", "CSS", "API"],
     gitUrl: "https://github.com/IamJusttimmy/bureau-de-change",
     previewUrl: "https://bureau-de-change.vercel.app/",
-  },
-  {
-    id: 5,
-    title: "Confrence Ticket Generator",
-    description:
-      "A simple react app that generates confrence tickets with users inputting their details.",
-    image: "/images/projects/ticket-generator.png",
-    tags: ["Next.js", "React", "Tailwind CSS"],
-    gitUrl:
-      "https://github.com/IamJusttimmy/Travel-https://github.com/IamJusttimmy/Confrence-Ticket-generator",
-    previewUrl: "https://confrence-ticket-generator-seven.vercel.app/",
-  },
-  {
-    id: 6,
-     title: "Travel List",
-    description:
-      "A clean web app that helps travelers plan trips and stay organized. You can create itineraries, make packing and to-do lists, and keep everything in one place.",
-    image: "/images/projects/travel-list.png",
-    tags: ["React", "CSS"],
-    gitUrl: "https://github.com/IamJusttimmy/Travel-List",
-    previewUrl: "https://travel-list-nine-amber.vercel.app/",
   },
 ];
 
@@ -74,13 +75,14 @@ function ProjectCard({ imgUrl, title, description, tags, gitUrl, previewUrl }) {
       <div className="relative h-52 md:h-72">
         <Image src={imgUrl} alt={title} layout="fill" objectFit="cover" />
         <div className="overlay absolute top-0 left-0 w-full h-full bg-black bg-opacity-80 md:bg-opacity-0 md:hover:bg-opacity-80 transition-opacity duration-500 flex items-center justify-center space-x-4 opacity-70 md:opacity-0 md:hover:opacity-100">
+          {/* 
           <a
             href={gitUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="text-white border-2 border-[#00ADB5] p-2 rounded-full hover:bg-[#00ADB5] transition-colors"
           >
-            {/* GitHub Icon */}
+            github icon
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -95,6 +97,7 @@ function ProjectCard({ imgUrl, title, description, tags, gitUrl, previewUrl }) {
               <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.5a5.45 5.45 0 0 0-3 0C10.27.65 9.09 1 9.09 1A5.07 5.07 0 0 0 9 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
             </svg>
           </a>
+          */}
           <a
             href={previewUrl}
             target="_blank"
