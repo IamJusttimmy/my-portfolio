@@ -33,7 +33,7 @@ const projectsData = [
     description:
       "A CreateUserForm component that validates user input with password requirements. Real-time password validation,API integration, error handling, Accessible form inputs with proper labeling, Client-side validation to prevent invalid submissions.",
     image: "/images/projects/create-user-form.jpeg",
-    tags: ["React", "API"],
+    tags: ["React", "TypeScript", "API"],
     gitUrl: "https://github.com/IamJusttimmy/create-user-form",
     previewUrl: "create-form-validation.vercel.app",
   },
